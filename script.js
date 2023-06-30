@@ -8,7 +8,7 @@ const quizQues = [
     ans: "ans2",
   },
   {
-    question: "Q2: What is the full form of SLAM?",
+    question: "Q2: What is the full form of CSS?",
     a: "Synchronized ",
     b: "Cascading Style Sheep",
     c: "Cartoon Style Sheet",
