@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+  background-color: #232323;
+}
+
+.container {
+  width: 40em;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.box {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 1.8rem;
+  padding-left: 25px;
+}
+
+ul {
+  /* background-color: red; */
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+ul li {
+  margin: 5px 0;
+  padding: 5px;
+  list-style-type: none;
+  /* background-color: red; */
+  cursor: pointer;
+  font-size: 18px;
+}
+
+label,
+input {
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+#submit,
+#score #startNew {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  width: 10rem;
+  padding: 10px;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  background: #74b9ff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#submit:hover,
+#score #startNew:hover {
+  background-color: #0984e3;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+#score {
+  position: relative;
+  width: 95%;
+  background-color: #dfe6e9;
+  margin: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  display: none;
+}
