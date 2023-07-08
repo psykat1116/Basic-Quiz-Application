@@ -9,7 +9,7 @@ const quizQues = [
   },
   {
     question: "Q2: What is the full form of CSS?",
-    a: "Synchronized ",
+    a: "Cascading Style Sheet",
     b: "Cascading Style Sheep",
     c: "Cartoon Style Sheet",
     d: "Cascading Super Sheets",
